@@ -1,0 +1,48 @@
+/* Common Utility */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+/* First block style  */
+.first-block{
+    background-color: #2D25A0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.first-block img{
+    width: 556.01px;
+    height: 438px;
+    padding: 150px;
+}
+
+.block-title{
+     margin-top: 150px;
+     margin-left: 50px;
+}
+.first-title{
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+}
+.block-button{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 15px;
+}
+.block-button i{
+    margin-left: 5px;
+}
+.block-button:hover i{
+    transform: translate(7px);
+}
+
+.block-button:hover{
+    background-color: red;
+    transition: background-color 2s linear,translate ease;
+}
